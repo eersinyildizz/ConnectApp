@@ -10,7 +10,7 @@ script :
   - yarn test
   - yarn run test:ci
 
-  deploy:
+deploy:
   provider: pages
   skip_cleanup: true
   github_token: $github_token
